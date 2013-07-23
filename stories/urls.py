@@ -4,3 +4,4 @@ urlpatterns = patterns('',
     url(r'^$', 'stories.views.index'),
     url(r'^story/$', 'stories.views.story'),
   )
+
