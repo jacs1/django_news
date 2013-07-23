@@ -19,7 +19,7 @@ def age(created_at):
 		precision = 'hour'
 
 	else:
-		value = age_minutes_minutes/(60*24)
+		value = age_in_minutes/(60*24)
 		precision = 'day'
 
 	age_string = '%d %s%s ago' % (value, precision, ('s' if value > 1 else ''))
